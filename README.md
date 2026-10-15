@@ -17,7 +17,9 @@ The `system_report.sh` script automates the process of health checking and audit
    ```bash
    chmod +x system_report.sh
 
-   ------------------------------
+3. **Run this command to execute our program
+   ```bash
+   .\system_report.sh
 ### Metrics Collected
 * **Hostname:** The network name assigned to the machine.
 * **Kernel Version:** The active Linux kernel release details.
