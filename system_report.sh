@@ -23,3 +23,8 @@ echo " Checkup started! Robo name recorded in $OUTPUT."
 echo "3. Disk Usage:" >> $OUTPUT
 df -h >> $OUTPUT
 echo "" >> $OUTPUT
+
+#checkup point 3
+echo "4. Memory Usage:" >> $OUTPUT
+free -h >> $OUTPUT
+echo "" >> $OUTPUT
