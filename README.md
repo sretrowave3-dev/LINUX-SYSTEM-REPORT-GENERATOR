@@ -8,6 +8,16 @@ A lightweight command-line utility written in Bash that queries core system metr
 
 The `system_report.sh` script automates the process of health checking and auditing a Linux system. Instead of manually invoking separate diagnostic tools, this script runs the required standard utilities sequentially and exports the findings directly into `system-report.txt`.
 
+-----------------------------------
+
+## How to Run the Script
+
+1. **Open your terminal** and navigate to the project directory.
+2. **Make the script executable** by granting the necessary permissions:
+   ```bash
+   chmod +x system_report.sh
+
+   ------------------------------
 ### Metrics Collected
 * **Hostname:** The network name assigned to the machine.
 * **Kernel Version:** The active Linux kernel release details.
