@@ -1,29 +1,53 @@
 ==========================================
 ROBO HEALTH CHECK REPORT
-Checkup Time: Thu Oct 15 21:52:00 IST 2026
+Checkup Time: Thu Oct 15 22:11:54 IST 2026
 ==========================================
 
 Question 1: What is your name?
 Robo Name: dha-home-comp-p
 
+Question 2: What is your brain version?
+6.18.54.1-microsoft-standard-WSL2
+
 3. Disk Usage:
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda1       464G   75G  389G  17% /
-tmpfs           3.9G  1.5M  3.9G   1% /run
+none            1.5G     0  1.5G   0% /usr/lib/modules/6.18.54.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2
+none            1.5G  4.0K  1.5G   1% /mnt/wsl
+drivers         464G   78G  387G  17% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.3G  955G   1% /
+none            1.5G   32K  1.5G   1% /mnt/wslg
+none            1.5G     0  1.5G   0% /usr/lib/wsl/lib
+rootfs          1.5G  3.4M  1.4G   1% /init
+none            1.5G     0  1.5G   0% /dev
+none            1.5G  400K  1.5G   1% /run
+none            1.5G     0  1.5G   0% /run/lock
+none            1.5G     0  1.5G   0% /run/shm
+none            1.5G   80K  1.5G   1% /mnt/wslg/versions.txt
+none            1.5G   80K  1.5G   1% /mnt/wslg/doc
+C:\             464G   78G  387G  17% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           289M  8.0K  289M   1% /run/user/0
 
 4. Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:           7.8Gi       1.8Gi       3.5Gi       150Mi       2.5Gi       5.6Gi
-Swap:          2.0Gi          0B       2.0Gi
+Mem:           2.8Gi       336Mi       2.4Gi       4.0Mi       139Mi       2.5Gi
+Swap:          1.0Gi          0B       1.0Gi
 
 5. Top Running Processes:
-top - 21:52:00 up  1:24,  1 user,  load average: 0.08, 0.03, 0.01
-Tasks: 214 total,   1 running, 213 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  1.5 us,  0.5 sy,  0.0 ni, 97.8 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   7982.4 total,   3542.1 free,   1854.2 used,   2586.1 buff/cache
-MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5824.5 avail Mem
+top - 22:11:54 up 4 min,  1 user,  load average: 0.07, 0.12, 0.06
+Tasks: 30 total, 1 running, 29 sleep, 0 d-sleep, 0 stopped, 0 zombie
+%Cpu(s):  0.0 us,  1.9 sy,  0.0 ni, 86.5 id, 11.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   2883.0 total,   2476.7 free,    336.0 used,    139.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2547.1 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-   1425 shreya    20   0   14380   4520   3312 R   0.0   0.1   0:00.02 top
-      1 root      20   0  167040  12352   8208 S   0.0   0.2   0:01.42 systemd
-    842 root      20   0   48128  11532   9216 S   0.0   0.1   0:00.22 systemd-journald
+      1 root      20   0   27868  16516  11856 S   0.0   0.6   0:00.93 systemd
+      2 root      20   0    3804   2508   2376 S   0.0   0.1   0:00.01 init-sy+
+      3 root      20   0    3664   2140   2040 S   0.0   0.1   0:00.00 init-wa+
+      7 root      20   0    3804   2272   2168 S   0.0   0.1   0:00.00 init
+     63 root      20   0   25852  11068  10312 S   0.0   0.4   0:00.08 systemd+
+     92 root      20   0    9248   4872   4268 S   0.0   0.2   0:00.03 systemd+
+     93 root      20   0   38044  12180   9288 S   0.0   0.4   0:00.19 systemd+
+     95 root      20   0    9152   4628   4024 S   0.0   0.2   0:00.03 systemd+
+
