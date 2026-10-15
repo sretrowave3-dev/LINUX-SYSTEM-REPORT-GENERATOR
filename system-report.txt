@@ -1,16 +1,29 @@
 ==========================================
 ROBO HEALTH CHECK REPORT
-Checkup Time: Thu, Oct 15, 2026  9:10:49 PM
+Checkup Time: Thu Oct 15 21:52:00 IST 2026
 ==========================================
 
 Question 1: What is your name?
 Robo Name: dha-home-comp-p
 
 3. Disk Usage:
-Filesystem            Size  Used Avail Use% Mounted on
-C:/Program Files/Git  464G   75G  390G  17% /
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1       464G   75G  389G  17% /
+tmpfs           3.9G  1.5M  3.9G   1% /run
 
 4. Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.8Gi       3.5Gi       150Mi       2.5Gi       5.6Gi
+Swap:          2.0Gi          0B       2.0Gi
 
 5. Top Running Processes:
+top - 21:52:00 up  1:24,  1 user,  load average: 0.08, 0.03, 0.01
+Tasks: 214 total,   1 running, 213 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.5 us,  0.5 sy,  0.0 ni, 97.8 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7982.4 total,   3542.1 free,   1854.2 used,   2586.1 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5824.5 avail Mem
 
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1425 shreya    20   0   14380   4520   3312 R   0.0   0.1   0:00.02 top
+      1 root      20   0  167040  12352   8208 S   0.0   0.2   0:01.42 systemd
+    842 root      20   0   48128  11532   9216 S   0.0   0.1   0:00.22 systemd-journald
