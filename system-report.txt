@@ -1,12 +1,12 @@
 ==========================================
 ROBO HEALTH CHECK REPORT
-Checkup Time: Thu Oct 15 22:11:54 IST 2026
+Checkup Time: Thu Oct 15 22:16:27 IST 2026
 ==========================================
 
 Question 1: What is your name?
 Robo Name: dha-home-comp-p
 
-Question 2: What is your brain version?
+Question 2: What is your kernel version?
 6.18.54.1-microsoft-standard-WSL2
 
 3. Disk Usage:
@@ -31,23 +31,23 @@ tmpfs           289M  8.0K  289M   1% /run/user/0
 
 4. Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:           2.8Gi       336Mi       2.4Gi       4.0Mi       139Mi       2.5Gi
+Mem:           2.8Gi       329Mi       2.5Gi       4.0Mi        79Mi       2.5Gi
 Swap:          1.0Gi          0B       1.0Gi
 
 5. Top Running Processes:
-top - 22:11:54 up 4 min,  1 user,  load average: 0.07, 0.12, 0.06
+top - 22:16:27 up 8 min,  1 user,  load average: 0.10, 0.12, 0.08
 Tasks: 30 total, 1 running, 29 sleep, 0 d-sleep, 0 stopped, 0 zombie
-%Cpu(s):  0.0 us,  1.9 sy,  0.0 ni, 86.5 id, 11.5 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :   2883.0 total,   2476.7 free,    336.0 used,    139.8 buff/cache     
-MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2547.1 avail Mem 
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 84.5 id, 15.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   2883.0 total,   2542.8 free,    329.2 used,     79.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2553.8 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   27868  16516  11856 S   0.0   0.6   0:00.93 systemd
+    393 root      20   0    7812   5324   3120 R   4.4   0.2   0:00.01 top
+      1 root      20   0   27868  16516  11856 S   0.0   0.6   0:00.94 systemd
       2 root      20   0    3804   2508   2376 S   0.0   0.1   0:00.01 init-sy+
       3 root      20   0    3664   2140   2040 S   0.0   0.1   0:00.00 init-wa+
       7 root      20   0    3804   2272   2168 S   0.0   0.1   0:00.00 init
      63 root      20   0   25852  11068  10312 S   0.0   0.4   0:00.08 systemd+
      92 root      20   0    9248   4872   4268 S   0.0   0.2   0:00.03 systemd+
      93 root      20   0   38044  12180   9288 S   0.0   0.4   0:00.19 systemd+
-     95 root      20   0    9152   4628   4024 S   0.0   0.2   0:00.03 systemd+
 
