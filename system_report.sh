@@ -18,8 +18,8 @@ echo "" >> "$OUTPUT"
 # Also print a friendly note to the terminal screen
 echo " Checkup started! Robo name recorded in $OUTPUT."
 
-# Question 2: What is your brain version? (Kernel version)
-echo "Question 2: What is your brain version?" >> "$OUTPUT"
+# Question 2: What is your kernel version? (Kernel version)
+echo "Question 2: What is your kernel version?" >> "$OUTPUT"
 uname -r >> "$OUTPUT"
 echo "" >> "$OUTPUT"
 
