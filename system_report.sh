@@ -28,3 +28,8 @@ echo "" >> $OUTPUT
 echo "4. Memory Usage:" >> $OUTPUT
 free -h >> $OUTPUT
 echo "" >> $OUTPUT
+
+#checkup point 4
+echo "5. Top Running Processes:" >> $OUTPUT
+top -b -n 1 | head -n 15 >> $OUTPUT
+echo "" >> $OUTPUT
